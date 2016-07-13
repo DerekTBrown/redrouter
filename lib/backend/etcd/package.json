@@ -1,6 +1,6 @@
 {
   "name": "redrouter.backend.etcd",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "description": "ssh proxy agent for redrouter",
   "main": "index.js",
   "repository": {
