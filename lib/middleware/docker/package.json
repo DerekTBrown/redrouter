@@ -20,7 +20,7 @@
   },
   "homepage": "https://github.com/derektbrown/redrouter#readme",
   "dependencies": {
-    "dolphin": "0.0.7",
+    "dolphin": "trunkatedpig/dolphin",
     "redrouter": "^0.1.0"
   },
   "peerDependencies": {
