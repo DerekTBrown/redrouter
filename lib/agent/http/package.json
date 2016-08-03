@@ -1,7 +1,7 @@
 {
-  "name": "redrouter.agent.ssh-proxy",
-  "version": "0.1.5",
-  "description": "ssh proxy agent for redrouter",
+  "name": "redrouter.agent.http",
+  "version": "0.1.0",
+  "description": "http agent for redrouter",
   "main": "index.js",
   "repository": {
     "type": "git",
