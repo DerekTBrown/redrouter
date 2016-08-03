@@ -23,6 +23,7 @@
     "redrouter": "^0.1.0"
   },
   "peerDependencies": {
-    "redrouter": "^0.1.0"
+    "redrouter": "^0.1.0",
+    "redrouter.resolver.http":"^0.1.0"
   }
 }
