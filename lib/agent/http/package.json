@@ -1,5 +1,5 @@
 {
-  "name": "redrouter.agent.http",
+  "name": "redrouter.agent.http-proxy",
   "version": "0.1.0",
   "description": "http agent for redrouter",
   "main": "index.js",

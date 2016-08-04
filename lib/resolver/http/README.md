@@ -3,7 +3,6 @@ The HTTP Resolver, intended for use with the HTTP Agent, routes HTTP and HTTPS
 requests.  The route records can be created by prefixing the `HTTP::` string to
 the route,  For example, if I wanted to create an HTTP proxy for "example.org":
 
-
 ```
 key: HTTP::example.org
 value:
