@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "key-gen": "./install.sh",
-    "test": "./node_modules/mocha/bin/mocha"
+    "test": "./node_modules/mocha/bin/mocha test/index.js"
   },
   "repository": {
     "type": "git",
