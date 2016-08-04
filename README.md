@@ -8,7 +8,6 @@
 ## Design
 #### Backend
 Backends are used to store the proxy records themselves.  By default, RedRouter stores proxy records in a memory cache, but you can additionally choose to search the following:
-- [X] memory
 - [X] etcd
 - [ ] memcached
 - [ ] mongodb
@@ -19,12 +18,12 @@ Backends are used to store the proxy records themselves.  By default, RedRouter 
 once a record has been found, it is added to the local memory cache, to reduce the time for subsequent requests.
 
 #### Resolvers
-Resolvers are used to find the proxy record matching a particular request.  This could be as simple as checking against the HTTP Request URL or SSH Username, or could be more complex, such as pattern matching. Some that have been implemented:
+Resolvers are used to find the proxy record matching a particular request.  This is usually protocol-specific as different request headers require different methods of matching. Some that have been implemented:
 - [X] HTTP / HTTPS
 - [X] SSH (Username)
 
 #### Middleware
-Your application can optionally implement a middleware stack, used to transform the content of proxy records.   This could be anything- logging, load balancing, even Docker discovery.  As with other middleware stacks, order does matter- so be sure to document this in developing your middleware.
+Your application can optionally implement a middleware stack, used to transform the content of proxy records. This could be anything- logging, load balancing, even Docker discovery.  As with other middleware stacks, order does matter- so be sure to document this in developing your middleware.
 - [X] docker resolution
 - [ ] round robin
 - [ ] dynamic load balancing
@@ -37,13 +36,6 @@ the resolver.  Some that have been implemented:
 - [ ] TCP
 - [X] SSH (Requires SSH Resolver)
 - [X] SSH over WebSockets (Basic wrapper used by Wetty)
-
-#### Usecases
-We are in the process of writing some simple example usecases in the `./examples` folder.  Feel free to contribute your own example code.  Some of the uses we have thought of:
-- HTTP Proxy for Docker Containers
-- SSH Proxy
-- SSH over WebSockets
-
 
 ## Getting Started
 
