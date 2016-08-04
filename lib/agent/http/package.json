@@ -20,7 +20,8 @@
   },
   "homepage": "https://github.com/derektbrown/redrouter#readme",
   "dependencies": {
-    "redrouter": "^0.1.0"
+    "redrouter": "^0.1.0",
+    "http-proxy": "1.12.1"
   },
   "peerDependencies": {
     "redrouter": "^0.1.0",

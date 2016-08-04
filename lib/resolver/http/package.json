@@ -25,6 +25,6 @@
   },
   "peerDependencies": {
     "redrouter": "^0.1.0",
-    "redrouter.agent.http":"^0.1.0"
+    "redrouter.agent.http-proxy":"^0.1.0"
   }
 }
