@@ -3,11 +3,11 @@ The SSH Resolver is used to route incoming requests based on username. The route
 
 ```
 {
-  host : 'allderek.com',
+  host : "allderek.com",
   port: 22,
-  username: 'derekbro', // This would override the username used by the user at login
-  password: 'password', // If unset, the password is interactively ascertained,
-  allowed_auth: ['password'] // Methods to attempt for authentication.
+  username: "derekbro", // This would override the username used by the user at login
+  password: "password", // If unset, the password is interactively ascertained,
+  allowed_auth: ["password"] // Methods to attempt for authentication.
 }
 ```
 

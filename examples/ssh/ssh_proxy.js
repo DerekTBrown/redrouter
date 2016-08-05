@@ -2,6 +2,9 @@
   SSH Tunnel Example using RedRouter
 **/
 
+// FS for Keys
+var fs = require('fs');
+
 // Import RedRouter Core
 var redrouter = require('../../').create;
 
@@ -14,6 +17,9 @@ var resolver_ssh = require('redrouter.resolver.ssh');
   Define a RedRouter Instance
 */
 var proxy = new redrouter({
+  ssl : {
+    key : fs.readFileSync('examples/ssh/example.key')
+  },
   backend : {
     constructor: backend_etcd,
     options: {
