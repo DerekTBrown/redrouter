@@ -15,14 +15,10 @@ for i in "${packages[@]}"
 do
 	cd "lib/$i";
 	pwd;
-	npm version patch;
 	npm publish;
 	cd "../../../";
 done
 
 # Publish Core
 pwd;
-git add -A;
-git commit . -m "Updating Package Versions";
-npm version patch;
 npm publish;
