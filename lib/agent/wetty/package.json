@@ -1,6 +1,6 @@
 {
   "name": "redrouter.agent.wetty",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Establishes a SSH Proxy Connection over WebSockets using the Wetty frontend",
   "main": "index.js",
   "scripts": {
@@ -28,6 +28,6 @@
   },
   "peerDependencies": {
     "redrouter": "^0.1.0",
-    "redrouter.resolver.ssh":"^0.1.0"
+    "redrouter.resolver.ssh": "^0.1.0"
   }
 }

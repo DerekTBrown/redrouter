@@ -1,6 +1,6 @@
 {
   "name": "redrouter",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "modular reverse proxy for nodejs",
   "main": "index.js",
   "scripts": {

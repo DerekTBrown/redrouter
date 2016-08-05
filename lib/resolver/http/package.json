@@ -1,6 +1,6 @@
 {
   "name": "redrouter.resolver.http",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "http resolver for redrouter",
   "main": "index.js",
   "repository": {
@@ -25,6 +25,6 @@
   },
   "peerDependencies": {
     "redrouter": "^0.1.0",
-    "redrouter.agent.http-proxy":"^0.1.0"
+    "redrouter.agent.http-proxy": "^0.1.0"
   }
 }
