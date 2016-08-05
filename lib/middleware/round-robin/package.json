@@ -1,7 +1,7 @@
 {
-  "name": "redrouter.resolver.ssh",
+  "name": "redrouter.middleware.round-robin",
   "version": "0.2.0",
-  "description": "ssh proxy agent for redrouter",
+  "description": "round-robin routing for redrouter",
   "main": "index.js",
   "repository": {
     "type": "git",
@@ -20,7 +20,8 @@
   },
   "homepage": "https://github.com/derektbrown/redrouter#readme",
   "dependencies": {
-    "redrouter": "^0.1.0"
+    "redrouter": "^0.1.0",
+    "node-cache": "^3.2.1"
   },
   "peerDependencies": {
     "redrouter": "^0.1.0"

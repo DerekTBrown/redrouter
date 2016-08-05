@@ -1,25 +1,19 @@
 /**
-  SSH Tunnel Example using RedRouter
+  Example HTTP Proxy in RedRouter
 **/
-
-// FS for Keys
-var fs = require('fs');
 
 // Import RedRouter Core
 var redrouter = require('../../').create;
 
 // Import RedRouter Components
 var backend_etcd = require('redrouter.backend.etcd');
-var agent_ssh = require('redrouter.agent.ssh-proxy');
-var resolver_ssh = require('redrouter.resolver.ssh');
+var agent_http = require('redrouter.agent.http-proxy');
+var resolver_http = require('redrouter.resolver.http');
 
 /*
   Define a RedRouter Instance
 */
 var proxy = new redrouter({
-  ssl : {
-    key : fs.readFileSync('examples/ssh/example.key')
-  },
   backend : {
     constructor: backend_etcd,
     options: {
@@ -28,16 +22,12 @@ var proxy = new redrouter({
     }
   },
   resolvers: [
-    { constructor: resolver_ssh,
-      options: {
-        defaults: {
-          allowed_auth: ['password']
-        }
-      }
+    {
+      constructor: resolver_http
     }
   ],
   agents: [
-    { constructor: agent_ssh,
+    { constructor: agent_http,
       options: {
         host: 'localhost',
         port: 3000

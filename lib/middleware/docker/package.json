@@ -1,7 +1,7 @@
 {
   "name": "redrouter.middleware.docker",
-  "version": "0.1.5",
-  "description": "docker middlware for redrouter",
+  "version": "0.2.0",
+  "description": "docker middleware for redrouter",
   "main": "index.js",
   "repository": {
     "type": "git",

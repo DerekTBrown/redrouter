@@ -1,6 +1,6 @@
 {
   "name": "redrouter.agent.ssh-proxy",
-  "version": "0.1.5",
+  "version": "0.2.0",
   "description": "ssh proxy agent for redrouter",
   "main": "index.js",
   "repository": {
@@ -20,10 +20,10 @@
   },
   "homepage": "https://github.com/derektbrown/redrouter#readme",
   "dependencies": {
-    "node-etcd": "^5.0.1",
     "redrouter": "^0.1.0"
   },
   "peerDependencies": {
-    "redrouter": "^0.1.0"
+    "redrouter": "^0.1.0",
+    "redrouter.resolver.ssh":"^0.1.0"
   }
 }
