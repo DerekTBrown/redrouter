@@ -1,5 +1,5 @@
 {
-  "name": "redrouter.agent.http-proxy",
+  "name": "redrouter.agent.http",
   "version": "0.2.1",
   "description": "http agent for redrouter",
   "main": "index.js",
@@ -20,11 +20,6 @@
   },
   "homepage": "https://github.com/derektbrown/redrouter#readme",
   "dependencies": {
-    "redrouter": "^0.1.0",
     "http-proxy": "1.12.1"
-  },
-  "peerDependencies": {
-    "redrouter": "^0.1.0",
-    "redrouter.resolver.http": "^0.1.0"
   }
 }

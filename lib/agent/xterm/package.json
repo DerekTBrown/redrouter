@@ -1,0 +1,28 @@
+{
+  "name": "redrouter.agent.xterm",
+  "version": "0.2.1",
+  "description": "Establishes a SSH Proxy Connection over WebSockets using the XTerm frontend",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DerekTBrown/redrouter.git"
+  },
+  "keywords": [
+    "redrouter",
+    "ssh",
+    "proxy",
+    "xterm"
+  ],
+  "author": "Derek Brown",
+  "license": "GPL-2.0\t",
+  "bugs": {
+    "url": "https://github.com/DerekTBrown/redrouter/issues"
+  },
+  "homepage": "https://github.com/DerekTBrown/redrouter#readme",
+  "dependencies": {
+    "socket.io": "^1.4.8"
+  }
+}

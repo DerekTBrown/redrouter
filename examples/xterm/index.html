@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>XTerm/RedRouter - Web-based SSH Proxy</title>
+
+    <script src="http://cdn.socket.io/socket.io-1.4.5.js"></script>
+    <link rel="stylesheet" href="bower_components/xterm.js/dist/xterm.css" />
+    <script src="bower_components/xterm.js/dist/xterm.js"></script>
+    <script src="bower_components/xterm.js/dist/addons/fit/fit.js"></script>
+    <style>
+        html,
+        body {
+            height: 100%;
+            width: 100%;
+            margin: 0px;
+        }
+        #terminal {
+            display: block;
+            position: relative;
+            width: 100%;
+            height: 100%;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="terminal"></div>
+    <script src="client.js"></script>
+    <script>
+      var XTerm = new XTerminal({
+        username : "example",
+        password : "password"
+      });
+    </script>
+</body>
+
+
+</html>
