@@ -1,0 +1,17 @@
+{
+  "name": "redrouter-xterm-example",
+  "main": "xterm.js",
+  "homepage": "https://github.com/DerekTBrown/redrouter",
+  "authors": [
+    "Derek Brown <derek@allderek.com>"
+  ],
+  "description": "Example Application for Red Router using the XTerm Agent",
+  "license": "GPL-3.0",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

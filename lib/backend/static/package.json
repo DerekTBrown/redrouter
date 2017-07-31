@@ -1,0 +1,26 @@
+{
+  "name": "redrouter.backend.static",
+  "version": "0.2.1",
+  "description": "static backend for redrouter",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/derektbrown/redrouter.git"
+  },
+  "keywords": [
+    "redrouter",
+    "static",
+    "backend"
+  ],
+  "author": "Derek Brown",
+  "license": "GPL-2.0",
+  "bugs": {
+    "url": "https://github.com/derektbrown/redrouter/issues"
+  },
+  "homepage": "https://github.com/derektbrown/redrouter#readme",
+  "dependencies": {
+  },
+  "devDependencies": {
+    "redrouter": "file:../../../"
+  }
+}

@@ -1,6 +1,6 @@
 {
   "name": "redrouter.resolver.http",
-  "version": "0.2.1",
+  "version": "0.3.0",
   "description": "http resolver for redrouter",
   "main": "index.js",
   "repository": {
@@ -20,11 +20,9 @@
   },
   "homepage": "https://github.com/derektbrown/redrouter#readme",
   "dependencies": {
-    "redrouter": "^0.1.0",
     "underscore": "^1.8.3"
   },
-  "peerDependencies": {
-    "redrouter": "^0.1.0",
-    "redrouter.agent.http-proxy": "^0.1.0"
+  "devDependencies": {
+    "redrouter": "file:../../../"
   }
 }

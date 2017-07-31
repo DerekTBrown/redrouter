@@ -1,6 +1,6 @@
 {
   "name": "redrouter.resolver.ssh",
-  "version": "0.2.1",
+  "version": "0.3.0",
   "description": "ssh proxy agent for redrouter",
   "main": "index.js",
   "repository": {
@@ -19,10 +19,8 @@
     "url": "https://github.com/derektbrown/redrouter/issues"
   },
   "homepage": "https://github.com/derektbrown/redrouter#readme",
-  "dependencies": {
-    "redrouter": "^0.1.0"
-  },
-  "peerDependencies": {
-    "redrouter": "^0.1.0"
+  "dependencies": {},
+  "devDependencies": {
+    "redrouter": "file:../../../"
   }
 }

@@ -1,0 +1,25 @@
+{
+  "name": "redrouter.agent.ssh",
+  "version": "0.3.0",
+  "description": "ssh proxy agent for redrouter",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/derektbrown/redrouter.git"
+  },
+  "keywords": [
+    "redrouter",
+    "ssh",
+    "reverse",
+    "proxy"
+  ],
+  "author": "Derek Brown",
+  "license": "GPL-2.0",
+  "bugs": {
+    "url": "https://github.com/derektbrown/redrouter/issues"
+  },
+  "homepage": "https://github.com/derektbrown/redrouter#readme",
+  "dependencies": {
+    "ssh2": "^0.5.5"
+  }
+}
