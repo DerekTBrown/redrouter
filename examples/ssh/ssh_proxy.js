@@ -17,9 +17,6 @@ var resolver_ssh = require('redrouter.resolver.ssh');
   Define a RedRouter Instance
 */
 var proxy = new redrouter({
-  ssl : {
-    key : fs.readFileSync('examples/ssh/example.key')
-  },
   backend : {
     constructor: backend_etcd,
     options: {
@@ -40,7 +37,8 @@ var proxy = new redrouter({
     { constructor: agent_ssh,
       options: {
         host: 'localhost',
-        port: 3000
+        port: 3000,
+        key: fs.readFileSync('examples/ssh/example.key')
       }
     }
   ]
