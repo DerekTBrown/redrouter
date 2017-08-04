@@ -1,6 +1,6 @@
 {
   "name": "redrouter.middleware.round-robin",
-  "version": "0.3.2",
+  "version": "0.3.4",
   "description": "round-robin routing for redrouter",
   "main": "index.js",
   "repository": {

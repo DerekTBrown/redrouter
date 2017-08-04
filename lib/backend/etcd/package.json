@@ -1,6 +1,6 @@
 {
   "name": "redrouter.backend.etcd",
-  "version": "0.3.2",
+  "version": "0.3.4",
   "description": "etcd backend for redrouter",
   "main": "index.js",
   "repository": {
@@ -19,6 +19,6 @@
   },
   "homepage": "https://github.com/derektbrown/redrouter#readme",
   "dependencies": {
-    "node-etcd": "^5.1.0"
+    "node-etcd": "github:learnlinux/node-etcd"
   }
 }

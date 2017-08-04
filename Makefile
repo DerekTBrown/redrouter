@@ -8,8 +8,6 @@ packages := ${packages} lib/resolver/http lib/resolver/ssh
 git_version := $(shell git tag | tail -1)
 
 publish:
-	npm version ${git_version};
-	npm publish;
 	for pkg in ${packages}; do \
 		cd ./$$pkg; \
 		npm version ${git_version}; \
