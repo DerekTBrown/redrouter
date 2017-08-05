@@ -1,6 +1,6 @@
 {
   "name": "redrouter.backend.etcd",
-  "version": "0.3.9",
+  "version": "0.3.11",
   "description": "etcd backend for redrouter",
   "main": "index.js",
   "repository": {

@@ -5,7 +5,7 @@ packages := ${packages} lib/backend/etcd
 packages := ${packages} lib/middleware/docker lib/middleware/round-robin
 packages := ${packages} lib/resolver/http lib/resolver/ssh
 
-git_version := $(shell git tag | tail -1)
+git_version := $(shell git tag --sort=taggerdate | tail -1)
 
 publish:
 	for pkg in ${packages}; do \
