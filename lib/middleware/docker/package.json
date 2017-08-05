@@ -1,6 +1,6 @@
 {
   "name": "redrouter.middleware.docker",
-  "version": "0.3.5",
+  "version": "0.3.6",
   "description": "docker middleware for redrouter",
   "main": "index.js",
   "repository": {
