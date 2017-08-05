@@ -30,9 +30,13 @@ function XTerminal(opts){
 
     // Resize Listener
     terminal.on('resize', function (size) {
+      console.log("Resize!!");
+      
       socket.emit('resize', {
         cols : size.cols,
-        rows : size.rows
+        rows : size.rows,
+        height: size.height,
+        width: size.width
       });
     });
 
