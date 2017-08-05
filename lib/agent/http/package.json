@@ -1,6 +1,6 @@
 {
   "name": "redrouter.agent.http",
-  "version": "0.3.6",
+  "version": "0.3.7",
   "description": "http agent for redrouter",
   "main": "index.js",
   "repository": {
