@@ -1,6 +1,6 @@
 {
   "name": "redrouter.agent.xterm",
-  "version": "0.3.8",
+  "version": "0.3.9",
   "description": "Establishes a SSH Proxy Connection over WebSockets using the XTerm frontend",
   "main": "index.js",
   "scripts": {
